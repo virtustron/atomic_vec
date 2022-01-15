@@ -1,3 +1,8 @@
+
 fn main() {
-    println!("Hello, world!");
+    print!("Hello, crossbeam!");
+
 }
+
+#[cfg(test)]
+mod test;
